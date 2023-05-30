@@ -1,0 +1,919 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+
+<HEAD>
+
+    <STYLE type="text/css">
+        #box {
+            background-color: #DFECEC;
+            width: 1250px;
+            height: 550px;
+            top: 50 px;
+            left: 50px;
+            border:1px solid black;
+            position: absolute;
+            z-index: 0;
+        }
+
+        #roof {
+            background-color:#D29393;
+            width: 1250px;
+            height: 30px;
+            top: 5px;
+            left: 50px;
+            border:1px solid black;
+            position: absolute;
+            z-index: 1;
+        }
+
+
+        #window1 {
+            background-color:white ;
+            width: 150px;
+            height: 110px;
+            top: 430px;
+            left: 80px;
+            border:1px solid black;
+            position: absolute;
+            z-index: 2;
+       }
+ #window2 {
+            background-color:white ;
+            width: 150px;
+            height: 110px;
+            top: 255px;
+            left: 80px;
+            border:1px solid black;
+            position: absolute;
+            z-index: 3;
+           }
+
+ #window3 {
+            background-color:white ;
+            width:150px;
+            height: 110px;
+            top: 80px;
+            left: 80px;
+            border:1px solid black;
+            position: absolute;
+            z-index: 4;
+         }
+
+        #window4 {
+            background-color:white ;
+            width: 150px;
+            height: 110px;
+            top: 430px;
+            left: 238px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 5;
+       }
+
+
+        #window5 {
+            background-color:white ;
+            width: 150px;
+            height: 110px;
+            top: 255px;
+            left: 238px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 6;
+       }
+
+
+
+        #window6 {
+            background-color:white ;
+            width: 150px;
+            height: 110px;
+            top: 80px;
+            left: 238px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 7;
+
+            }
+
+
+        #stairs{
+            background-color:#AFC7C7 ;
+            width: 230px;
+            height: 150px;
+            top: 394px;
+            left: 1066px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 8;
+
+           }
+
+
+
+        #window7 {
+            background-color:white ;
+            width: 150px;
+            height: 110px;
+            top: 80px;
+            left: 408px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 11;
+
+            }
+        #window8 {
+            background-color:white ;
+            width: 150px;
+            height: 110px;
+            top: 80px;
+            left: 568px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 12;
+
+           }
+        #window9 {
+            background-color:white ;
+            width: 150px;
+            height: 110px;
+            top: 80px;
+            left: 734px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 13;
+
+                }
+        #window10 {
+            background-color:white ;
+            width: 150px;
+            height: 110px;
+            top: 255px;
+            left: 406px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 14;
+
+           }
+
+        #window11 {
+            background-color:white ;
+            width: 150px;
+            height: 110px;
+            top: 430px;
+            left: 568px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 15;
+
+           }
+
+        #window12 {
+            background-color:white ;
+            width: 150px;
+            height: 110px;
+            top: 430px;
+            left: 734px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 16;
+
+           }
+
+
+        #window13 {
+            background-color:white ;
+            width: 150px;
+            height: 110px;
+            top: 430px;
+            left: 890px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 17;
+
+           }
+
+        #window14 {
+            background-color:white ;
+            width: 150px;
+            height: 110px;
+            top: 80px;
+            left: 890px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 18;
+
+           }
+
+        #window15 {
+            background-color:white ;
+            width: 150px;
+            height: 110px;
+            top: 255px;
+            left: 734px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 19;
+
+           }
+
+
+        #floor {
+            background-color:gray ;
+            width: 1250px;
+            height: 20px;
+            top: 550px;
+            left: 50px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 19;
+
+           }
+
+
+        #window16 {
+            background-color:white ;
+            width: 150px;
+            height: 110px;
+            top: 255px;
+            left: 734px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 19;
+                }
+
+        #window17 {
+            background-color:white ;
+            width: 150px;
+            height: 110px;
+            top: 255px;
+            left: 890px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 20;
+                }
+
+
+
+        #window18 {
+            background-color:white ;
+            width: 150px;
+            height: 110px;
+            top: 255px;
+            left: 568px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 21;
+                }
+
+
+        #window19 {
+            background-color:white ;
+            width: 150px;
+            height: 110px;
+            top: 430px;
+            left: 408px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 22;
+                }
+
+
+
+        #stairs1{
+            background-color:#AFC7C7 ;
+            width: 230px;
+            height: 110px;
+            top:255px;
+            left: 1066px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 23;
+              }
+
+               #stairs2{
+            background-color:#AFC7C7 ;
+            width: 230px;
+            height: 110px;
+            top:80px;
+            left: 1066px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 24;
+
+            }
+             #stairs3{
+            background-color:white ;
+            width: 115px;
+            height: 30px;
+            top:   160px;
+            left: 1180px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 25;
+              }
+             #line{
+            background-color:white ;
+            width: 20px;
+            height: 110px;
+            top:   255px;
+            left: 1180px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 26;
+              }
+              #line1{
+            background-color:white ;
+            width: 20px;
+            height: 110px;
+            top:   494px;
+            left: 1180px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 27;
+              }
+               #line2{
+            background-color:white ;
+            width: 20px;
+            height: 150px;
+            top:   394px;
+            left: 1180px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 28;
+              }
+             #stairsline{
+            background-color:gray ;
+            width: 93px;
+            height: 15px;
+            top:   528px;
+            left: 1202px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 29;
+              }
+               #stairsline1{
+            background-color:gray ;
+            width: 93px;
+            height: 15px;
+            top:   514px;
+            left: 1202px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 30;
+              }
+              #stairsline2{
+            background-color:gray ;
+            width: 93px;
+            height: 15px;
+            top:   500px;
+            left: 1202px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 31;
+              }
+              #stairsline3{
+            background-color:gray ;
+            width: 93px;
+            height: 15px;
+            top:   486px;
+            left: 1202px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 31;
+              }
+               #stairsline4{
+            background-color:gray ;
+            width: 93px;
+            height: 15px;
+            top:   472px;
+            left: 1202px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 32;
+              }
+              #stairsline5{
+            background-color:gray ;
+            width: 93px;
+            height: 10px;
+            top:   465px;
+            left: 1202px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 33;
+              }
+              #stairsline6{
+            background-color:gray ;
+            width: 93px;
+            height: 15px;
+            top:   350px;
+            left: 1202px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 32;
+              }
+              #stairsline7{
+            background-color:gray ;
+            width: 93px;
+            height: 15px;
+            top:   335px;
+            left: 1202px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 33;
+              }
+                #stairsline8{
+            background-color:gray ;
+            width: 93px;
+            height: 15px;
+            top:   320px;
+            left: 1202px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 34;
+              }
+              #stairsline9{
+            background-color:gray ;
+            width: 93px;
+            height: 10px;
+            top:   310px;
+            left: 1202px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 35;
+              }
+
+             #door1andwindowfirstroomfirstfloor{
+            background-color:brown ;
+            width: 50px;
+            height: 70px;
+            top:   470px;
+            left: 172px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 36;
+              }
+              #doorandwindow1firstroomfirstfloor{
+            background-color:#7FFFD4 ;
+            width: 75px;
+            height: 25px;
+            top:   470px;
+            left: 90px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 37;
+              }
+              #door2andwindowfirstroomfirstfloor{
+            background-color:brown ;
+            width: 50px;
+            height: 70px;
+            top:   470px;
+            left: 245px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 38;
+              }
+              #doorandwindow2firstroomfirstfloor{
+            background-color:#7FFFD4 ;
+            width: 75px;
+            height: 25px;
+            top:   470px;
+            left: 302px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 39;
+              }
+              #door1andwindowsecondroomfirstfloor{
+            background-color:brown;
+            width: 50px;
+            height: 70px;
+            top:   470px;
+            left: 500px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 40;
+              }
+               #doorandwindow1secondroomfirstfloor{
+            background-color:#7FFFD4;
+            width: 75px;
+            height: 25px;
+            top:   470px;
+            left: 418px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 41;
+              }
+               #door2andwindowsecondroomfirstfloor{
+            background-color:brown;
+            width: 50px;
+            height: 70px;
+            top:   470px;
+            left: 576px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 42;
+              }
+               #doorandwindow2secondroomfirstfloor{
+            background-color:#7FFFD4;
+            width: 75px;
+            height: 25px;
+            top:   470px;
+            left: 634px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 43;
+              }
+              #door1andwindowthirdfirstfloor{
+            background-color:brown;
+            width: 50px;
+            height: 70px;
+            top:   470px;
+            left: 826px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 44;
+              }
+              #doorandwindow1thirdfirstfloor{
+            background-color:#7FFFD4;
+            width: 75px;
+            height: 25px;
+            top:   470px;
+            left: 744px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 45;
+              }
+              #door2andwindowthirdfirstfloor{
+            background-color:brown;
+            width: 50px;
+            height: 70px;
+            top:   470px;
+            left:898px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 46;
+              }
+              #doorandwindow2thirdfirstfloor{
+            background-color:#7FFFD4;
+            width: 75px;
+            height: 25px;
+            top:   470px;
+            left: 954px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 46;
+              }
+              #door1andwindowfirstroomsecondfloor{
+            background-color:brown ;
+            width: 50px;
+            height: 70px;
+            top:   294px;
+            left: 90px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 47;
+              }
+              #doorandwindow1firstroomsecondfloor{
+            background-color:#7FFFD4;
+            width: 75px;
+            height: 25px;
+            top:   294px;
+            left: 148px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 48;
+              }
+               #door2andwindowsecondroomsecondfloor{
+            background-color:brown ;
+            width: 50px;
+            height: 70px;
+            top:   294px;
+            left: 330px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 49;
+
+              }
+               #doorandwindow2firstroomsecondfloor{
+            background-color:#7FFFD4;
+            width: 75px;
+            height: 25px;
+            top:   294px;
+            left: 244px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 50;
+              }
+              #doora1ndwindowsecondroomsecondfloor{
+            background-color:brown ;
+            width: 50px;
+            height: 70px;
+            top:   294px;
+            left: 414px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 51;
+
+              }
+              #doorandwindow1secondroomsecondfloor{
+            background-color:#7FFFD4;
+            width: 75px;
+            height: 25px;
+            top:   294px;
+            left:   474px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 52;
+                 }
+             #doora2ndwindowsthirdroomsecondfloor{
+            background-color:brown;
+            width: 50px;
+            height: 70px;
+            top:   294px;
+            left: 660px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 53;
+              }
+              #doorandwindow2secondroomsecondfloor{
+            background-color:#7FFFD4;
+            width: 75px;
+            height: 25px;
+            top:   294px;
+            left:   574px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 54;
+                 }
+                 #dooraa1ndwindowsthirdroomsecondfloor{
+            background-color:brown;
+            width: 50px;
+            height: 70px;
+            top:   294px;
+            left: 742px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 54 ;
+              }
+              #dooraandwindows1thirdroomsecondfloor{
+            background-color:#7FFFD4;
+            width: 75px;
+            height: 25px;
+            top:   294px;
+            left:   798px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 55;
+                 }
+                 #dooraaa1ndwindowsthirdroomsecondfloor{
+            background-color:brown;
+            width: 50px;
+            height: 70px;
+            top:   294px;
+            left:980px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 56 ;
+              }
+              #dooraaandwindows2thirdroomsecondfloor{
+            background-color:#7FFFD4;
+            width: 75px;
+            height: 25px;
+            top:   294px;
+            left:   900px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 57;
+              }
+            #door1ndwindowsthirdroomthirdfloor{
+            background-color:brown;
+            width: 50px;
+            height: 70px;
+            top:  120px;
+            left:330px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 58;
+              }
+               #doorndwindows1thirdroomthirdfloor{
+            background-color:#7FFFD4;
+            width: 75px;
+            height: 25px;
+            top:   120px;
+            left:   250px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 59 ;
+              }
+              #doora1ndwindowsthirdroomthirdfloor{
+            background-color:brown;
+            width: 50px;
+            height: 70px;
+            top:  120px;
+            left:418px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 60;
+              }
+               #doorandwindows1thirdroomthirdfloor{
+            background-color:#7FFFD4;
+            width: 75px;
+            height: 25px;
+            top:   120px;
+            left:   478px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 61 ;
+              }
+                 #dooraa1ndwindowsthirdroomthirdfloor{
+            background-color:brown;
+            width: 50px;
+            height: 70px;
+            top:  120px;
+            left:660px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 62;
+              }
+              #dooraandwindows1thirdroomthirdfloor{
+            background-color:#7FFFD4;
+            width: 75px;
+            height: 25px;
+            top:   120px;
+            left:   578px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 63 ;
+              }
+               #dooraaa1ndwindowsthirdroomthirdfloor{
+            background-color:brown;
+            width: 50px;
+            height: 70px;
+            top:  120px;
+            left:744px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 64;
+              }
+              #dooraaandwindows1thirdroomthirdfloor{
+            background-color:#7FFFD4;
+            width: 75px;
+            height: 25px;
+            top:   120px;
+            left:   802px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 65 ;
+              }
+              #dooraaaa1ndwindowsthirdroomthirdfloor{
+            background-color:brown;
+            width: 50px;
+            height: 70px;
+            top:  120px;
+            left:980px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 66;
+              }
+              #dooraaaandwindows1thirdroomthirdfloor{
+            background-color:#7FFFD4;
+            width: 75px;
+            height: 25px;
+            top:   120px;
+            left:   900px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 67 ;
+              }
+               #dooraaaandwindows2thirdroomthirdfloor{
+            background-color:#7FFFD4;
+            width: 75px;
+            height: 25px;
+            top:   120px;
+            left:   800px;
+             border:1px solid black;
+            position: absolute;
+            z-index: 68 ;
+              }
+              #dooraaaandwindows3thirdroomthirdfloor{
+            background-color:#7FFFD4;
+            width: 80px;
+            height: 25px;
+            top:   120px;
+            left:   130px;
+             border:2px solid black;
+            position: absolute;
+            z-index: 69 ;
+              }
+               #frontccs{
+            background-color:gray;
+            width: 446px;
+            height: 46px;
+            top:  368px;
+            left:   734px;
+
+            position: absolute;
+            z-index: 70 ;
+              }
+               #frontccs1{
+            background-color:gray;
+            width: 25px;
+            height: 200px;
+            top:  370px;
+            left:   734px;
+
+            position: absolute;
+            z-index: 71 ;
+              }
+                #s1{
+            background-color:brown;
+            width: 50px;
+            height: 10px;
+            top:  370px;
+            left:   734px;
+            border:2px solid black;
+            position: absolute;
+            z-index: 72 ;
+              }
+
+    </STYLE>
+
+</HEAD>
+
+<BODY>
+    <DIV id="box"></DIV>
+    <DIV id="roof"></DIV>
+    <DIV id="window1"></DIV>
+    <DIV id="window2"></DIV>
+    <DIV id="window3"></DIV>
+    <DIV id="window4"></DIV>
+     <DIV id="window5"></DIV>
+      <DIV id="window6"></DIV>
+        <DIV id="stairs"></DIV>
+          <DIV id="window7"></DIV>
+          <DIV id="window8"></DIV>
+            <DIV id="window9"></DIV>
+            <DIV id="window10"></DIV>
+              <DIV id="window11"></DIV>
+<DIV id="window12"></DIV>
+          <DIV id="window13"></DIV>
+      <DIV id="window14"></DIV>
+<DIV id="window15"></DIV>
+<DIV id="window16"></DIV>
+<DIV id="window17"></DIV>
+<DIV id="window18"></DIV>
+<DIV id="window19"></DIV>
+<DIV id="floor"></DIV>
+ <DIV id="stairs1"></DIV>
+ <DIV id="stairs2"></DIV>
+  <DIV id="stairs3"></DIV>
+   <DIV id="line"></DIV>
+    <DIV id="line2"></DIV>
+      <DIV id="stairsline"></DIV>
+        <DIV id="stairsline1"></DIV>
+        <DIV id="stairsline2"></DIV>
+          <DIV id="stairsline3"></DIV>
+           <DIV id="stairsline4"></DIV>
+            <DIV id="stairsline5"></DIV>
+    <DIV id="stairsline6"></DIV>
+     <DIV id="stairsline7"></DIV>
+      <DIV id="stairsline8"></DIV>
+       <DIV id="stairsline9"></DIV>
+        <DIV id="door1andwindowfirstroomfirstfloor"></DIV>
+        <DIV id="doorandwindow1firstroomfirstfloor"></DIV>
+        <DIV id="door2andwindowfirstroomfirstfloor"></DIV>
+        <DIV id="doorandwindow2firstroomfirstfloor"></DIV>
+         <DIV id="door1andwindowsecondroomfirstfloor"></DIV>
+           <DIV id="doorandwindow1secondroomfirstfloor"></DIV>
+           <DIV id="door2andwindowsecondroomfirstfloor"></DIV>
+           <DIV id="doorandwindow2secondroomfirstfloor"></DIV>
+           <DIV id="door1andwindowthirdfirstfloor"></DIV>
+            <DIV id="doorandwindow1thirdfirstfloor"></DIV>
+            <DIV id="door2andwindowthirdfirstfloor"></DIV>
+            <DIV id="doorandwindow2thirdfirstfloor"></DIV>
+             <DIV id="door1andwindowfirstroomsecondfloor"></DIV>
+             <DIV id="doorandwindow1firstroomsecondfloor"></DIV>
+              <DIV id="door2andwindowsecondroomsecondfloor"></DIV>
+                 <DIV id="doorandwindow2firstroomsecondfloor"></DIV>
+</HTML>               <DIV id="doora1ndwindowsecondroomsecondfloor"></DIV>
+                       <DIV id="doorandwindow1secondroomsecondfloor"></DIV>
+              <DIV id="doora2ndwindowsthirdroomsecondfloor"></DIV>
+              <DIV id="doorandwindow2secondroomsecondfloor"></DIV>
+              <DIV id="dooraa1ndwindowsthirdroomsecondfloor"></DIV>
+              <DIV id="dooraandwindows1thirdroomsecondfloor"></DIV>
+              <DIV id="dooraaa1ndwindowsthirdroomsecondfloor"></DIV>
+              <DIV id="dooraaandwindows2thirdroomsecondfloor"></DIV>
+              <DIV id="door1ndwindowsthirdroomthirdfloor"></DIV>
+               <DIV id="doorndwindows1thirdroomthirdfloor"></DIV >
+               <DIV id="doora1ndwindowsthirdroomthirdfloor"></DIV >
+               <DIV id="doorandwindows1thirdroomthirdfloor"></DIV >
+               <DIV id="dooraa1ndwindowsthirdroomthirdfloor"></DIV >
+                <DIV id="dooraandwindows1thirdroomthirdfloor"></DIV >
+                <DIV id="dooraaa1ndwindowsthirdroomthirdfloor"></DIV >
+                <DIV id="dooraaaa1ndwindowsthirdroomthirdfloor"></DIV >
+                <DIV id="dooraaaandwindows1thirdroomthirdfloor"></DIV >
+                <DIV id="dooraaaandwindows2thirdroomthirdfloor"></DIV >
+                <DIV id="dooraaaandwindows3thirdroomthirdfloor"></DIV >
+                <DIV id="frontccs"></DIV>
+                <DIV id="frontccs1"></DIV>
+                <DIV id="s1"></DIV>
